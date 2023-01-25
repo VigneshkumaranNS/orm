@@ -20,7 +20,7 @@ Include the details in the tables.
 Write your own steps
 
 ## PROGRAM
-
+```
 Include your code here
 #admin.py:
 from django.contrib import admin
@@ -44,8 +44,7 @@ class Employee (models.Model):
 
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('employeeid','name','age','email','role','salary')
-
-
+```
 ## OUTPUT
 
 ## Employee table with 10 records
